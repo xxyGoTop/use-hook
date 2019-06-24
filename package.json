@@ -1,0 +1,25 @@
+{
+  "name": "use-hook",
+  "version": "0.1.0",
+  "description": "a hook package",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration --outDir lib"
+  },
+  "author": "xxy",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
