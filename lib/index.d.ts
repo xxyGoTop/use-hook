@@ -1,2 +1,3 @@
 import useScroll from './scroll/useScroll';
-export { useScroll };
+import useTimeout from './timeout/useTimeout';
+export { useScroll, useTimeout };

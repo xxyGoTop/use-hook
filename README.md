@@ -11,4 +11,6 @@ To install react-hookr, simply run:
 
 - [**Sensors**]
   - [`useScroll`](./src/scroll/) &mdash;  tracks an HTML element's scroll position.
-  [![Edit loving-lichterman-r91jk](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/loving-lichterman-r91jk?fontsize=14)
+  [![Edit useScroll](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/usescroll-r91jk?fontsize=14)
+  - [`useTimeout`](./src/timeout/) &mdash;  returns bolean status(true) after a timeout.
+  [![Edit useTimeout](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/usetimeout-kexbq?fontsize=14)
