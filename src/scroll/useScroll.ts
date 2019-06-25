@@ -23,8 +23,8 @@ const useScroll = (ref: RefObject<HTMLElement>): State => {
       elemt.current = requestAnimationFrame(() => {
         if(ref.current) {
           setState({
-            x: ref.current.offsetLeft,
-            y: ref.current.offsetTop
+            x: ref.current.scrollLeft,
+            y: ref.current.scrollTop
           })
         }
       });

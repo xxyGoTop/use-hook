@@ -1,7 +1,7 @@
 {
-  "name": "use-hook",
-  "version": "0.1.0",
-  "description": "a hook package",
+  "name": "react-hookr",
+  "version": "0.1.2",
+  "description": "a hook public package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
@@ -20,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/xxyGoTop/use-hook.git"
   }
 }
