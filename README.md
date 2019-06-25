@@ -3,11 +3,12 @@
 
 react common public hook
 
-To install cachetable, simply run:
+To install react-hookr, simply run:
 
-> npm install cachetable
+> npm install react-hookr
 
 ### hook
 
-1. useScroll (在codesandbox看使用方式)
+- [**Sensors**]
+  - [`useScroll`](./src/scroll/) &mdash;  tracks an HTML element's scroll position.
   [![Edit loving-lichterman-r91jk](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/loving-lichterman-r91jk?fontsize=14)
