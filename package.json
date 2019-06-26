@@ -1,6 +1,6 @@
 {
   "name": "react-hookr",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "a hook public package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
