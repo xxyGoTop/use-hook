@@ -20,3 +20,7 @@ To install react-hookr, simply run:
   [![Edit toggleHover](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/togglehover-se85x?fontsize=14)
   - [`useLocalStorage`](./src/storage/) &mdash; set or get local storage 
   [![Edit storage](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/storage-x10q9?fontsize=14)
+  - [`useRefMounted`](./src/mount/) &mdash; tracks if component is mounted 
+  [![Edit promise](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/promise-9ntde?fontsize=14)
+  - [`usePromise`](./src/promise/) &mdash; resolves promise only while component is mounted
+  [![Edit promise](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/promise-9ntde?fontsize=14)
