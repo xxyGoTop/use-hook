@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const useTimeout = (ms: number) => {
-  const [ status, setStatus ] = useState(false);
+  const [ status, setStatus ] = useState<Boolean>(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
