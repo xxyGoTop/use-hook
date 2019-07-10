@@ -19,11 +19,11 @@ const useList = <T>(initList: T[] = []):[T[], Actions<T>] => {
       set,
       clear: () => set([]),
       push: item => set(currentList => [...currentList, item]),
-      remove: index => set(currentList => [...currentList.slice(0, index), ...currentList.slice(index)]),
+      remove: index => set(currentList => [...currentList.slice(0, index), ...currentList.slice(index+1)]),
       filter: fn => set(currentList => currentList.filter(fn)),
       sort: (fn?) => set(currentList => [...currentList].sort(fn)),
       updateIndex: (index, item) =>
-        set(currentList => [...currentList.slice(0, index), item, ...currentList.slice(index)]),
+        set(currentList => [...currentList.slice(0, index), item, ...currentList.slice(index+1)]),
     }
   ]
 };
