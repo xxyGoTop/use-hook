@@ -1,2 +1,2 @@
-declare const useTimeout: (ms: number) => boolean;
+declare const useTimeout: (ms: number) => Boolean;
 export default useTimeout;
