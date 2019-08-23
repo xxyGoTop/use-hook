@@ -6,6 +6,7 @@ import useLocalStorage from './storage/useLocalStorage';
 import useRefMounted from './mount/useRefMounted';
 import usePromise from './promise/usePromise';
 import useList from './list/useList';
+import usePrevious from './previous/usePrevious';
 
 export {
   useScroll,
@@ -15,5 +16,6 @@ export {
   useLocalStorage,
   useRefMounted,
   usePromise,
-  useList
+  useList,
+  usePrevious
 }

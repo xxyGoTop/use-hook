@@ -26,3 +26,5 @@ To install react-hookr, simply run:
   [![Edit promise](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/promise-9ntde?fontsize=14)
   - [`useList`](./src/list/) &mdash; tracks a value of an array
   [![Edit list](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/list-8kfll?fontsize=14)
+  - [`usePrevious`](./src/list/) &mdash; tracks a value of previous
+  [![Edit list](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/embed/useprevious-xj0f9?fontsize=14)
