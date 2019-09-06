@@ -7,6 +7,7 @@ import useRefMounted from './mount/useRefMounted';
 import usePromise from './promise/usePromise';
 import useList from './list/useList';
 import usePrevious from './previous/usePrevious';
+import useScrolling from './scrolling/useScrolling';
 
 export {
   useScroll,
@@ -17,5 +18,6 @@ export {
   useRefMounted,
   usePromise,
   useList,
-  usePrevious
+  usePrevious,
+  useScrolling
 }
