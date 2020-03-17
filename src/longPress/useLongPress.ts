@@ -26,6 +26,7 @@ const useLongPress = (
 
   const start = useCallback(
     (event: TouchEvent | MouseEvent) => {
+      // 阻止移动设备默认事件
       if(isPreventDefault && event.target) {
         event.target.addEventListener('touchend', preventDefault, { passive: false })
         target.current = event.target;
